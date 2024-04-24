@@ -91,7 +91,7 @@ async function gltfLoader(content) {
   // Emit the file:
   this.emitFile(interpolatedPath, updatedContent, null);
   // Join all paths together:
-  const fullPath = path.join(publicPath, interpolatedPath);
+  const fullPath = path.join(publicPath, interpolatedPath).replace(/\\/g, '/');
   // Lastly, resolve with either the JSON data or the full output path:
   return `export default ${inline ? updatedContent : `"${fullPath}"`}`;
 }
