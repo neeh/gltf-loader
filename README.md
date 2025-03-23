@@ -51,8 +51,7 @@ module.exports = {
 
 ### `inline`
 
-Type: `boolean`<br>
-Default: `false`
+Type: `boolean` Default: `false`
 
 Whether to inject the glTF content inside the bundle.
 
@@ -86,8 +85,7 @@ loader.parse(cube, '', gltf => {
 
 ### `name`
 
-Type: `string`<br>
-Default: `"[contenthash].[ext]"`
+Type: `string` Default: `"[contenthash].[ext]"`
 
 The name pattern of the exported .gltf file. This name can include a folder.
 
@@ -189,7 +187,7 @@ assets/model-medium.w2x4y6z8.gltf
 assets/model-low.e5f6g7h8.gltf
 ```
 
-### Contributing
+## Contributing
 
 Contributions are welcome.
 
