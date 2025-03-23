@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="500" height="160" src="./assets/logo.svg">
+  <img width="500" height="160" src="assets/logo.svg">
 </div>
 
 # glTF Loader for Webpack 5
