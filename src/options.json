@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "inline": {
+      "type": "boolean",
+      "description": "Whether to inline .gltf files inside the bundle."
+    },
+    "name": {
+      "type": "string",
+      "description": "The name pattern of exported .gltf files."
+    },
+    "context": {
+      "type": "string",
+      "description": "The base input path of .gltf files."
+    },
+    "regExp": {
+      "instanceof": "RegExp",
+      "description": "Regular expression that injects parts of the input path into the output path."
+    }
+  },
+  "additionalProperties": false,
+  "required": []
+}

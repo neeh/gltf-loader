@@ -1,0 +1,30 @@
+{
+  "name": "@neeh/gltf-loader",
+  "version": "1.0.0",
+  "description": "glTF loader for Webpack 5.",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "gltf",
+    "webpack",
+    "loader"
+  ],
+  "author": "neeh",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^5.52.0"
+  },
+  "dependencies": {
+    "loader-utils": "^3.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "memfs": "^4.17.0",
+    "webpack": "^5.98.0"
+  }
+}
