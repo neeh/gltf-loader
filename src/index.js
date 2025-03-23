@@ -46,7 +46,7 @@ module.exports = async function loader(content) {
     const request = loaderUtils.urlToRequest(asset.uri, context);
 
     // https://github.com/webpack/webpack/issues/18928
-    const assetLoaderPath = path.relative(this.context, assetLoaderPath_);
+    const assetLoaderPath = path.relative(this.context, assetLoaderPath_).replaceAll('\\', '/');
     const result = await this.importModule(`!!${assetLoaderPath}!${request}`);
     imports.push(`!!${assetLoaderPath}!${request}`);
 

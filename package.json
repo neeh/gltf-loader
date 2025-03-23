@@ -1,6 +1,6 @@
 {
   "name": "@neeh/gltf-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "glTF loader for Webpack 5.",
   "main": "src/index.js",
   "files": [
