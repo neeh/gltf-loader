@@ -1,6 +1,6 @@
 {
   "name": "@neeh/gltf-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "glTF loader for Webpack 5.",
   "main": "src/index.js",
   "files": [
@@ -9,6 +9,14 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neeh/gltf-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/neeh/gltf-loader/issues"
+  },
+  "homepage": "https://github.com/neeh/gltf-loader",
   "keywords": [
     "gltf",
     "webpack",
